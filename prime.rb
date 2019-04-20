@@ -13,10 +13,7 @@ remainder = range.all? { |number| integer % number != 0}
               return false
               elsif remainder = true
                 return true
-              end
-            end
-        end
-end 
+              
 
 prime?(4)
   
