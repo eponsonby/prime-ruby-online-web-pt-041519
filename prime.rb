@@ -7,7 +7,7 @@ range = (2...integer).to_a
     return false
       elsif integer > 1 && integer <= 3
         return true
-          elsif integer > 3
+          else
             range.each do |number|
               if integer % number == 0
                 return false
