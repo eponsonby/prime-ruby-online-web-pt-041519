@@ -9,7 +9,7 @@ remainder = range.all? { |number| integer % number != 0}
     return false
       elsif integer == 2 || integer == 3
         return true
-          elsif any == true
+          elsif any_zero == true
               return false
               elsif remainder = true
                 return true
