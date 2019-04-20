@@ -13,8 +13,8 @@ range = (2...integer).to_a
               break
             elsif integer % number != 0
             end
-            binding.pry
           end
+          binding.pry
       end
 end 
 
