@@ -7,8 +7,9 @@ range = (2...integer).to_a
     return false
       elsif integer == 2 || integer == 3
         return true
-        
-            range.any? { |number| integer % number == 0}
+          elsif any = true
+          any = range.any? { |number| integer % number == 0}
+              return false
               if integer % number == 0
                 return false
                 break
