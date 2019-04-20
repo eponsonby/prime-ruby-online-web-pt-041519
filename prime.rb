@@ -16,7 +16,6 @@ range = (2...integer).to_a
           end
       end
 end 
-end
 
 prime?(4)
   
