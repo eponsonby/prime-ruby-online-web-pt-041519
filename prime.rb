@@ -7,9 +7,9 @@ range = (2...integer).to_a
     return false
       elsif integer == 2 || integer == 3
         return true
-        binding.pry
+        
             range.any? do |number|
-              if integer % number == 0
+              integer % number == 0
                 return false
               if integer % number == 0
                 return false
