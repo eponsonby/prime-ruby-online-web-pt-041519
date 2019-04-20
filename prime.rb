@@ -11,8 +11,8 @@ range = (2...integer).to_a
             if integer % number == 0
               return false
               break
+              binding.pry
             elsif integer % number != 0
-            binding.pry
             end
           end
       end
