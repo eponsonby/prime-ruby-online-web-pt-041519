@@ -12,8 +12,8 @@ range = (2...integer).to_a
               return false
               break
             elsif integer % number != 0
-            binding.pry
             end
+            binding.pry
           end
       end
 end 
