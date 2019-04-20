@@ -11,12 +11,12 @@ range = (2...integer).to_a
             if integer % number == 0
               return false
               break
-              binding.pry
             elsif integer % number != 0
             end
           end
       end
 end 
+end
 
 prime?(4)
   
