@@ -3,7 +3,7 @@ require 'pry'
 def prime?(integer)
 range = (2...integer).to_a
 any_zero = range.any? { |number| integer % number == 0}
-remainder = range.any? { |number| integer % number != 0}
+remainder = range.all? { |number| integer % number != 0}
 
   if integer <= 1
     return false
