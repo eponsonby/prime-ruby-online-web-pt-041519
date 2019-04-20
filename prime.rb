@@ -14,8 +14,8 @@ range = (2...integer).to_a
             elsif integer % number != 0
             end
           end
-          binding.pry
       end
+      binding.pry
 end 
 
 prime?(4)
