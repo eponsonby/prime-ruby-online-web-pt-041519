@@ -9,6 +9,8 @@ range = (2...integer).to_a
         return true
         binding.pry
             range.each do |number|
+              if integer % any number == 0
+                return false
               if integer % number == 0
                 return false
                 break
